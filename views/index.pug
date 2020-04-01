@@ -1,5 +1,16 @@
 extends layout
 
 block content
+
+
   h1= title
+
+  ul
+    each val, index in ['zero', 'one', 'two']
+      li= index + ': ' + val
+
   p Welcome to WELMATRON #{title}
+  a(class='button' href='google.com') Google
+  |
+  |
+  a(class='button', href='google.com') Google
