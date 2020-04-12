@@ -1,18 +1,38 @@
 body {
-  padding: 50px;
-  font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+    padding: 50px;
+    font: 16px "Lucida Grande", Helvetica, Arial, sans-serif;
+    color: #6bce65;
 }
 
 a {
-  color: #00B7FF;
+    color: #6bce65;
 }
 
 .button {
-  padding: 15px;
-  background: #00B7FF;
-  color: beige;
+    padding: 15px;
+    background: #373dd0;
+    color: #6bce65;
 }
 
 .navbar {
+    background: #373dd0;
+    font-palette: light;
+    color: #6bce65;
+}
 
+.nav-link {
+    background: #373dd0;
+    font-palette: light;
+    color: #fff9f8;
+}
+
+.dropdown-menu{
+    background: #373dd0;
+    font-palette: light;
+    color: #ce3459;
+}
+.dropdown-item{
+    background: #373dd0;
+    font-palette: light;
+    color: #ce3459;
 }
