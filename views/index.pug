@@ -1,16 +1,16 @@
 extends layout
 
 block content
+  header#page-top
+    .wrap-header
+      .container
+        .row
+          .col-lg-12
+            .intro-text
+              .intro-heading(style='color:#98C879') Sasha Malkovich
+              .intro-lead-in Welcome To My World!
+            a.btn.btn-1(href='https://www.instagram.com/sasha_malkovich/') My Instagram
+            a.btn.btn-2(href='https://www.facebook.com/sashamalkovich?ref=bookmarks') My Facebook
 
 
-  h1= title
 
-  ul.list-group
-    each val, index in ['zero', 'one', 'two']
-      li.list-group-item= index + ': ' + val
-
-  p Welcome to WELMATRON #{title}
-  a(class='button' href='google.com') Google
-  |
-  |
-  a(class='button', href='google.com') Google

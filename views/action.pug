@@ -1,0 +1,11 @@
+extends layout
+
+block content
+
+
+    h1= title
+
+    ul.list-group
+        each val, index in ['zero', 'one', 'two']
+            li.list-group-item= index + ': ' + val
+

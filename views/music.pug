@@ -1,0 +1,27 @@
+extends layout
+
+block content
+    body
+        .wrap-header
+            .container
+                .row
+                    .col-lg-12
+                        .intro-text
+                            .intro-heading(style='color:#98C879') My Music
+                            .intro-lead-in This is Really a Great Day! My Friends! Welcome to My World!
+                        a.btn.btn-1(href='/about') About Me
+                        a.btn.btn-2(href='/controllers') My Controllers
+
+
+
+
+
+    ul.list-group
+        each val, index in ['zero', 'one', 'two']
+            li.list-group-item= index + ': ' + val
+
+    p Welcome to WELMATRON #{title}
+    a(class='button' href='google.com') Google
+    |
+    |
+    a(class='button', href='google.com') Google
