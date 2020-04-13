@@ -281,3 +281,15 @@ header .intro-text .intro-lead-in {
     font-size: 26px;
     font-style: italic;
 }
+
+footer{
+    background-image: url(../images/3.jpg);
+    background-color: transparent;
+    color: #98C879;
+    text-align: center;
+    border: none;
+    margin: 2px;
+    border-radius: 4px;
+    box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.75);
+
+}

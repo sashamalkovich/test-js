@@ -12,6 +12,7 @@ var actionRouter = require('./routes/action');
 var controllersRouter = require('./routes/controllers');
 var aboutRouter = require('./routes/about');
 
+var faviconPath = path.join(__dirname, '/public/images/favicon.png');
 
 
 var app = express();
@@ -26,7 +27,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
-app.use(favicon ('favicon.ico'));
+app.use(favicon(faviconPath));
 
 app.use('/', indexRouter);
 app.use('/music', musicRouter);

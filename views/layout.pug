@@ -1,24 +1,28 @@
 doctype html
+head
+    title= title
+    link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    link(rel='stylesheet', href='/stylesheets/style.css')
+
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible' content='IE=edge')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='description' content='MicroCosmos-Records. Sasha Malkovich is an experienced electronic music producer from Russia.')
+    meta(name='author' content='https://www.sashamalkovich.online')
+    meta(name='keywords' content='Sasha Malkovich, ambient, chill out, psychedelic, enlightenment, microcosmos, chillout, yoga music, Microcosmos Records')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    meta(name='robots' content='index, nofollow')
+
+    title Sasha Malkovich
+    link(rel='shortcut icon' type='image/x-icon' href='/images/favicon.png')
+
+
 html0
     head
-        title= title
-        link(rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.css')
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-        link(rel='stylesheet', href='/stylesheets/style.css')
 
-        meta(charset='utf-8')
-        meta(http-equiv='X-UA-Compatible' content='IE=edge')
-        meta(name='viewport' content='width=device-width, initial-scale=1')
-        meta(name='description' content='Sasha Malkovich is an experienced electronic music producer from Russia. Having worked in collaboration with famous pop music projects for more than 20 years, Sasha found his own creative path in composing psychedelic chill out.')
-        meta(name='author' content='https://www.sashamalkovich.online')
-        meta(name='keywords' content='Sasha Malkovich, Ambient, Chill Out, Psychedelic, Enlightenment, Psy Chill, Chillout, Yoga Music, Music Yoga')
-        meta(name='viewport' content='width=device-width, initial-scale=1')
-        meta(name='robots' content='noindex, nofollow')
-
-        title Sasha Malkovich
-        link(rel='shortcut icon' type='image/x-icon' href='/images/favicon.ico')
 
     body
         nav.navbar.navbar-expand-md
@@ -36,15 +40,35 @@ html0
                         a.nav-link(href='/about') About Me
 
                     li.nav-item.dropdown
-                        a#dropdown01.nav-link.dropdown-toggle(href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') More...
+                        a#dropdown01.nav-link.dropdown-toggle(href='#' data-toggle='dropdown' aria-haspopup='true' aria-expanded='false') Contacts
                         .dropdown-menu(aria-labelledby='dropdown01')
-                            a.dropdown-item(href='/action') Action
-                            a.dropdown-item(href='/') Another action
-                            a.dropdown-item(href='/') Something else here
+                            a.dropdown-item(href='https://www.instagram.com/sasha_malkovich/') Instagram
+                            a.dropdown-item(href='https://www.facebook.com/sashamalkovich?ref=bookmarks') Facebook
+                            a.dropdown-item(href='https://www.youtube.com/channel/UCUdnydDn1UVE5rMC70Msjpg?view_as=subscriber') YouTube
+                            a.dropdown-item(href='http://microcosmosrecords.com/artists/sasha-malkovich/') Microcosmos Records
+                            a.dropdown-item(href='https://shop.microcosmosrecords.com/album/quantum-certainty') BandCamp
+                            a.dropdown-item(href='https://music.apple.com/ru/artist/sasha-malkovich/1298680254?l=en') Apple Music
                 a.btn.btn-secondary(href='/login') Log In
         .container-fluid
             block content
             br
             hr
             footer
-                a.nav-link(type='button' href='https://www.instagram.com/sasha_malkovich/') INSTAGRAM
+                nav.navbar.navbar-expand-md
+                    a.navbar-brand(href='/') SM
+                    button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarsExampleDefault1' aria-controls='navbarsExampleDefault' aria-expanded='false' aria-label='Toggle navigation')
+                        span.navbar-toggler-icon
+                    #navbarsExampleDefault1.collapse.navbar-collapse
+                        ul.navbar-nav.mr-auto
+                            li.nav-item
+                                a.nav-link(href='https://www.instagram.com/sasha_malkovich/') Instagram
+                            li.nav-item
+                                a.nav-link(href='https://www.facebook.com/sashamalkovich?ref=bookmarks') Facebook
+                            li.nav-item
+                                a.nav-link(href='https://www.youtube.com/channel/UCUdnydDn1UVE5rMC70Msjpg?view_as=subscriber') YouTube
+                            li.nav-item
+                                a.nav-link(href='http://microcosmosrecords.com/artists/sasha-malkovich/') Microcosmos Records
+                            li.nav-item
+                                a.nav-link(href='https://shop.microcosmosrecords.com/album/quantum-certainty') BandCamp
+                            li.nav-item
+                                a.nav-link(href='https://music.apple.com/ru/artist/sasha-malkovich/1298680254?l=en') Apple Music
