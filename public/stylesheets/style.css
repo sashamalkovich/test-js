@@ -5,7 +5,7 @@ body {
     background-attachment: scroll;
     background-image: url(../images/3.jpg);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -124,7 +124,7 @@ header {
     background-attachment: scroll;
     background-image: url(../images/3.jpg);
     background-position: center center;
-    background-repeat: none;
+    background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -281,6 +281,19 @@ header .intro-text .intro-lead-in {
     font-size: 26px;
     font-style: italic;
 }
+.img-fluid{
+    max-width: 640px;
+    border-color: #1c7430;
+    border-radius: 4px;
+    border-image: url("/public/images/main-bg.jpg") ;
+    alignment: left;
+}
+
+.text-about{
+    background: transparent;
+    color: #98C879;
+    text-align: -webkit-center;
+}
 
 footer{
     background-image: url(../images/3.jpg);
@@ -288,8 +301,10 @@ footer{
     color: #98C879;
     text-align: center;
     border: none;
-    margin: 2px;
+    margin:auto;
+    clear:both;
     border-radius: 4px;
     box-shadow: 0px 2px 18px -4px rgba(0, 0, 0, 0.75);
+    -webkit-align-self: auto;
 
 }
