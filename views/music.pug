@@ -2,90 +2,495 @@ extends layout
 
 block content
     body
-        .wrap-header
+        section.wrap-header
             .container
                 .row
                     .col-lg-12
                         .intro-text
                             .intro-heading(style='color:#98C879') My Music
-                            .intro-lead-in This page is under construction. Coming Soon.
+                            .intro-lead-in In releases and radio-shows.
                         a.btn.btn-1(href='/about') About Me
                         a.btn.btn-2(href='/controllers') My Controllers
+        br
 
-        .flex-wrap
-            .flex-row
-                .col-sm
-                    .intro-lead-in Microcosmos Records is proud to present the debut album by Sasha Malkovich called Practical Levitation.
 
-                    .intro-lead-in Sasha Malkovich is an experienced electronic music producer from Russia. Having worked in collaboration with famous pop music projects for more than 20 years, Sasha found his own creative path in composing psychedelic chill out. He is the creator of magnificent musical atmospheres where the immersing mood of cosmic ambient is skillfully blended with energetic rhythms of progressive, and sunny dub lines are garnished with intense breakbeats. Nowadays Sasha enjoys performing his music live at parties around the globe, inspiring the listeners to expand their creative boundaries. The air of live session is gently brought to the sound of the new album.
+        section.container-fluid.release-header
+            .container
+                .row
+                    .col-12.release-name.text-center
+                        h1 Sasha Malkovich &mdash; Practical Levitation
+                .row
+                    .col-12.col-md-6.release-cover
+                        img.img-fluid(src='http://microcosmosrecords.com/wp-content/uploads/malkovich-web.jpg' alt='Sasha Malkovich — Practical Levitation' title='Sasha Malkovich — Practical Levitation')
+                    .col-12.col-md-6.release-player
+                        iframe(style='border: 0; width: 100%; height: 100%;' src='https://bandcamp.com/EmbeddedPlayer/album=2686416606/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/campaign=mc_site/' seamless='')
+                            a(href='http://shop.microcosmosrecords.com/album/practical-levitation') Practical Levitation by Sasha Malkovich
 
-                    .intro-lead-in Practical Levitation takes us on a smooth musical journey floating through the warm air of summer, filled with joy and happiness. From rhythmic ethnical percussion blending with soft synth pads, deep warm bass melting into brilliant music arrangements, the album paints new grounds and gives the real soothing pleasure of a slow dive in senses for the listener.
+        section.container-fluid.release-info
+            .container
+                .row
+                    .col-12.col-md-6.release-text
+                        p
+                            | Microcosmos Records is proud to present the debut album by Sasha Malkovich called Practical Levitation.
+                        p
+                            | Sasha Malkovich is an experienced electronic music producer from Russia. Having worked in collaboration with famous pop music projects for more than 20 years, Sasha found his own creative path in composing psychedelic chill out. He is the creator of magnificent musical atmospheres where the immersing mood of cosmic ambient is skillfully blended with energetic rhythms of progressive, and sunny dub lines are garnished with intense breakbeats. Nowadays Sasha enjoys performing his music live at parties around the globe, inspiring the listeners to expand their creative boundaries. The air of live session is gently brought to the sound of the new album.
+                        p
+                            | Practical Levitation takes us on a smooth musical journey floating through the warm air of summer, filled with joy and happiness. From rhythmic ethnical percussion blending with soft synth pads, deep warm bass melting into brilliant music arrangements, the album paints new grounds and gives the real soothing pleasure of a slow dive in senses for the listener.
+                        p
+                            | Listen to Practical Levitation album and join the emotive hovering experience to immerse in a meditative state of love and joy.
+                    .col-12.col-md-6.release-credits
+                        h4 Production:
+                        p
+                            | All tracks were written &amp; produced by
+                            strong Sasha Malkovich
+                        h4 Mastering:
+                        p.mastering
+                            | Manifold Studio
+                            br
+                            a(href='http://manifold-studio.com/' target='_blank') http://manifold-studio.com/
+                        h4 Cover artwork:
+                        p.cover-artwork
+                            a(href='https://www.facebook.com/kyzyaneya' target='_blank') Synergia (Natalya Arustamova)
+                        h4 Cover design:
+                        p.cover-design
+                            a(href='http://the-manitou.com' target='_blank') Shamil Karim
 
-                    .intro-lead-in Listen to Practical Levitation album and join the emotive hovering experience to immerse in a meditative state of love and joy.
+        section.container-fluid.release-header
+            .container
+                .row
+                    .col-12.release-name.text-center
+                        h1 Sasha Malkovich &mdash; Quantum Certainty
+                .row
+                    .col-12.col-md-6.release-cover
+                        img.img-fluid(src='http://microcosmosrecords.com/wp-content/uploads/folder11.jpg' alt='Sasha Malkovich — Quantum Certainty' title='Sasha Malkovich — Quantum Certainty')
+                    .col-12.col-md-6.release-player
+                        iframe(style='border: 0; width: 100%; height: 100%;' src='https://bandcamp.com/EmbeddedPlayer/album= 12533568/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/campaign=mc_site/' seamless='')
+                            a(href='http://shop.microcosmosrecords.com/album/quantum-certainty') Quantum Certainty by Sasha Malkovich
 
-                    .col-12
-                        .img-rounded
-                            img.img-fluid(itemtype='image/jpg' src='/images/practical_levitation.jpg')
+        section.container-fluid.release-info
+            .container
+                .row
+                    .col-12.col-md-6.release-text
+                        p
+                            | Microcosmos Records is delighted to present the new album Quantum Certainty by Sasha Malkovich.
+                        p
+                            | Sasha Malkovich is an electronic music producer from Russia. After his more than 20-years-long experience in collaboration with famous pop music projects, Sasha launched his own creative career in composing psychedelic chillout. He is the creator of magnificent music atmospheres where the immersing mood of cosmic ambient is skillfully blended with energetic rhythms of progressive together with groovy breakbeat incursions. His debut album Practical Levitation was released in 2018 at Microcosmos Records which led to Sasha gaining appreciation as a brilliant master of his genre.
+                        p
+                            | Quantum Certainty album maintains the concept of the previous author&rsquo;s works to investigate in his music the connection between the Observer and the Universe through the blend of science and magic, revealing the immersive puzzle of fantasy and reality. The album treats us to a mystical and meditative music hyperspace filling with exquisite balmy audio feelings.
+                        p
+                            | Touch the magic with turning on Quantum Certainty by Sasha Malkovich and Microcosmos Records!
+                    .col-12.col-md-6.release-credits
+                        h4 Production:
+                        p
+                            | All tracks were written &amp; produced by
+                            strong
+                                a(href='http://microcosmosrecords.com/sasha-malkovich/') Sasha Malkovich
+                        h4 Mastering:
+                        p.mastering
+                            | Manifold Studio
+                            br
+                            a(href='http://manifold-studio.com/' target='_blank') http://manifold-studio.com/
+                        h4 Cover artwork:
+                        p.cover-artwork
+                            a(href='https://www.facebook.com/kyzyaneya' target='_blank') Synergia (Natalya Arustamova)
+                        h4 Cover design:
+                        p.cover-design
 
-        .flex-wrap
-            .flex-row
-                .col-sm
-                    .col-12.col-md-12.text-about
-                     P
-                        | Microcosmos Records is delighted to present the new album Quantum Certainty by Sasha Malkovich.
-                        | Sasha Malkovich is an electronic music producer from Russia. After his more than 20-years-long experience in collaboration with famous pop music projects, Sasha launched his own creative career in composing psychedelic chillout. He is the creator of magnificent music atmospheres where the immersing mood of cosmic ambient is skillfully blended with energetic rhythms of progressive together with groovy breakbeat incursions. His debut album Practical Levitation was released in 2018 at Microcosmos Records which led to Sasha gaining appreciation as a brilliant master of his genre.
-                     P Quantum Certainty album maintains the concept of the previous author’s works to investigate in his music the connection between the Observer and the Universe through the blend of science and magic, revealing the immersive puzzle of fantasy and reality. The album treats us to a mystical and meditative music hyperspace filling with exquisite balmy audio feelings.
-                        | Touch the magic with turning on Quantum Certainty by Sasha Malkovich and Microcosmos Records!
-                .col-12
-                    .img-rounded
-                        img.img-fluid(itemtype='image/jpg' src='/images/quantum_sertainty.jpg')
-                .col-12
-                    .widget.wid-gallery
-                        .heading
-                            h4 Gallery
-                        .content
-                            .row
-                                .col-xs-4
-                                    a(href='#')
-                                        img(src='images/p-1.jpg')
-                                    a(href='#')
-                                        img(src='images/p-2.jpg')
-                                    a(href='#')
-                                        img(src='images/p-3.png')
-                                    a(href='#')
-                                        img(src='images/p-4.png')
-                                    a(href='#')
-                                        img(src='images/p-3.png')
-                                .col-xs-4
-                                    a(href='#')
-                                        img(src='images/6.png')
-                                    a(href='#')
-                                        img(src='images/7.jpg')
-                                    a(href='#')
-                                        img(src='images/8.jpg')
-                                .col-xs-4
-                                    a(href='#')
-                                        img(src='images/7.jpg')
-                                    a(href='#')
-                                        img(src='images/9.jpg')
-                                    a(href='#')
-                                        img(src='images/6.jpg')
-    .container
-        .row.justify-content-center
-            .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
-                iframe(width='560' height='315' src='https://www.youtube.com/embed/t6_gqHOoNqw' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
-            .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
-                iframe(width='560' height='315' src='https://www.youtube.com/embed/o_jA1MrMohE' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen='')
-            .col-12.col-md-8.text-about
-                p
-                    | I always knew that I would write music. And even did it from childhood.
-                p Over the years, my music became more interesting and deeper.
-                p
-                    | And once I discovered that the music is already much deeper than me, and it’s time to develop myself, The beginning of this familiarity with music. With Real Music That Just Like It.
-    .container
-        .row.justify-content-center
-            .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
-                iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279684687&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')
-            .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
-                iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/591793458&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')
+        section.container-fluid.release-header
+            .container
+                .row
+                    .col-12.release-name.text-center
+                        h1 Hidden Light
+                .row
+                    .col-12.col-md-6.release-cover
+                        img.img-fluid(src='http://microcosmosrecords.com/wp-content/uploads/00-VA-Hidden-Light-site-1080x1080.jpg' alt='Hidden Light' title='Hidden Light')
+                    .col-12.col-md-6.release-player
+                        iframe(style='border: 0; width: 100%; height: 100%;' src='https://bandcamp.com/EmbeddedPlayer/album=3641760352/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/campaign=mc_site/' seamless='')
+                            a(href='http://shop.microcosmosrecords.com/album/hidden-light') Hidden Light by Microcosmos Chill-out &amp; Ambient
+        section.container-fluid.release-info
+            .container
+                .row
+                    .col-12.col-md-6.release-text
+                        p
+                            | Microcosmos Records is pleased to present Hidden Light compilation mixed by DJ V++. The album offers nine selected works by psychill artists introducing a variety of musical spectra flowing into one another from soft and gentle tunes to groovy and rhythmic ones. The tracks take to a smooth journey through vast downtempo ambient soundscapes.
+                        p
+                            | Twinkling of stars in the night sky is just a small part of the light coming from the Endless Space. And all the living things on the Earth, like humans, animals, trees, and herbs also have their inner concealed light. Meditative vibes of the tracks fill the space ab extra invoking to discover that shining energy hidden inside of everything.
+                        p
+                            | Listen to Hidden Light, close your eyes and immerse yourself into the meditative experience of light coming from inside of every part of the Universe.
+                    .col-12.col-md-6.release-credits
+                        h4 Production:
+                        p
+                            | Tracks were written &amp; produced by:
+                            br
+                            | 01: Sergey Akimov
+                            br
+                            | 02: Maxim Tsibizov
+                            br
+                            | 03: Oleg Belousov
+                            br
+                            | 04: Artem Demidov &amp; Ekaterina Zlobina (feat. Dariya Yurkina)
+                            br
+                            | 05: Artur Mataryan
+                            br
+                            | 06: Tagir Bigfly
+                            br
+                            | 07: Vitaly Bochkov
+                            br
+                            | 08: Desislav Georgiev
+                            br
+                            | 09: Sasha Malkovich
+                        p
+                            | Compiled &amp; Mixed by
+                            strong DJ V++
+                        h4 Mastering:
+                        p.mastering
+                            | Manifold Studio
+                            br
+                            a(href='http://manifold-studio.com/' target='_blank') http://manifold-studio.com/
+                        h4 Cover artwork:
+                        p.cover-artwork
+                            a(href='https://www.vingtcent.com/' target='_blank') Vincent Guth
+                        h4 Cover design:
+                        p.cover-design
+                            | V++ &amp; Shamil Karim
 
+
+        section.container-fluid.release-header
+            .container
+                .row
+                    .col-12.release-name.text-center
+                        h1 Vena Portae &mdash; Underwater Remixes
+                .row
+                    .col-12.col-md-6.release-cover
+                        img.img-fluid(src='http://microcosmosrecords.com/wp-content/uploads/folder3.jpg' alt='Vena Portae — Underwater Remixes' title='Vena Portae — Underwater Remixes')
+                    .col-12.col-md-6.release-player
+                        iframe(style='border: 0; width: 100%; height: 100%;' src='https://bandcamp.com/EmbeddedPlayer/album= 4212163309/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/campaign=mc_site/' seamless='')
+                            a(href='http://shop.microcosmosrecords.com/album/underwater-remixes') Underwater Remixes by Vena Portae
+
+        section.container-fluid.release-info
+            .container
+                .row
+                    .col-12.col-md-6.release-text
+                        p
+                            | Microcosmos Records is proud to present Underwater Remixes, a remix album of Vena Portae, featuring works by Sasha Malkovich, Matiquechua, Nicoorion and Sirius C.
+                        p
+                            | Vena Portae is a Russian band who produce electroacoustic music in a wide range of genres such as ambient, downtempo, IDM, trip-hop. In their delicate music synthesized sound is enriched with acoustic instruments, ethnic percussions, and magnificent vocal.
+                        p
+                            | Underwater Remixes includes five remixes by the friend projects of Vena Portae from countries all over the world such as Spain, Chile, and Russia. It includes a remix for &ldquo;Coral&rdquo; by Sasha Malkovich, as well as a video version of original track modified by a cosmic sound of thereminvox.
+                        p
+                            | Turn on Underwater Remixes and join the mystical music journey to the depth of the ocean, immerse into the kingdom of corals and shiny underwater dreams.
+                    .col-12.col-md-6.release-credits
+                        h4 Production:
+                        p
+                            b Vena Portae
+                            | :
+                            br
+                            | Artem Demidov &amp; Ekaterina Zlobina
+                        p
+                            b Remixes
+                            | :
+                            br
+                            | Track 01: Nico Orion
+                            br
+                            | Track 02: Sasha Malkovich
+                            br
+                            | Track 03: &ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;&ZeroWidthSpace;Matilde Verg&eacute;s Bueno
+                            br
+                            | Track 05: Nikita Kovalev
+                        p
+                            b Continuous Mix
+                            | : Artem Demidov
+                        h4 Mastering:
+                        p.mastering
+                            | Manifold Studio
+                            br
+                            a(href='http://manifold-studio.com/' target='_blank') http://manifold-studio.com/
+                        h4 Cover artwork:
+                        p.cover-artwork
+                            | Ekaterina Zlobina
+                        h4 Cover design:
+                        p.cover-design
+                            a(href='http://the-manitou.com' target='_blank') Shamil Karim
+
+        section.container-fluid.release-header
+            .container
+                .row
+                    .col-12.release-name.text-center
+                        h1 Tea Leaves
+                .row
+                    .col-12.col-md-6.release-cover
+                        img.img-fluid(src='http://microcosmosrecords.com/wp-content/uploads/folder12.jpg' alt='Tea Leaves' title='Tea Leaves')
+                    .col-12.col-md-6.release-player
+                        iframe(style='border: 0; width: 100%; height: 100%;' src='https://bandcamp.com/EmbeddedPlayer/album= 883410751/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/campaign=mc_site/' seamless='')
+                            a(href='http://shop.microcosmosrecords.com/album/tea-leaves') Tea Leaves
+        section.container-fluid.release-info
+            .container
+                .row
+                    .col-12.col-md-6.release-text
+                        p
+                            | Microcosmos Records is happy to present Tea Leaves compilation by DJ V++. Nine soft immersive tracks in chillout and ambient create an elegant atmosphere of tea ceremony like nine varieties of tea shaping an exquisite audial space which let you fall in a relaxing state of inner harmony.
+                        p
+                            | The release is compiled by Vladimir Plusov a.k.a. DJ V++, a delicate music fan, and creator of many gentle and emotional mixes in ambient, psychill, downtempo. He is also an enthusiastic traveler and a tea master. A wide background in the art of tea inspired Vladimir to create the smooth and exquisite blend of Tea Leaves compilation.
+                        p
+                            | Welcome to a subtle atmosphere of a musical tea party, make yourself comfortable and enjoy the refined chillout collection of Tea Leaves.
+                    .col-12.col-md-6.release-credits
+                        h4 Production:
+                        p
+                            strong Written &amp; Produced by:
+                            br
+                            | 01: Sergey Sever
+                            br
+                            | 02:
+                            a(href='http://microcosmosrecords.com/blue-lotus/') Tagir &ldquo;Bigfly&rdquo;
+                            br
+                            | 03:
+                            a(href='http://microcosmosrecords.com/sasha-malkovich/') Sasha Malkovich
+                            br
+                            | 04:
+                            a(href='http://microcosmosrecords.com/kayatma/') Konstantin Kayatma
+                            |  (music), Julya Ruurman (vocal, songwriter)
+                            br
+                            | 05:
+                            a(href='http://microcosmosrecords.com/edd-989/') Eduard Korkin
+                            br
+                            | 06: Vitaly Bochkov
+                            br
+                            | 07:
+                            a(href='http://microcosmosrecords.com/cubering/') Sergey Akimov
+                            br
+                            | 08:
+                            a(href='http://microcosmosrecords.com/youginia/') Eugenia Rodzevich
+                            br
+                            | 09:
+                            a(href='http://microcosmosrecords.com/vena-portae/') Artem Demidov
+                        p
+                            | Compiled &amp; Mixed by
+                            strong
+                                a(href='http://microcosmosrecords.com/plus/') DJ V++
+                        h4 Mastering:
+                        p.mastering
+                            | Manifold Studio
+                            br
+                            a(href='http://manifold-studio.com/' target='_blank') http://manifold-studio.com/
+                        h4 Cover artwork:
+                        p.cover-artwork
+                            a(href='http://moychay.com/' target='_blank') Sergey Shevelev
+                        h4 Cover design:
+                        p.cover-design
+                            a(href='http://the-manitou.com' target='_blank') Manitou Studio
+
+        section.container-fluid.release-header
+            .container
+                .row
+                    .col-12.release-name.text-center
+                        h1 DJ V++ &mdash; Cosmic Microwave Background
+                .row
+                    .col-12.col-md-6.release-cover
+                        img.img-fluid(src='http://microcosmosrecords.com/wp-content/uploads/DJ-V-Cosmic-Microwave-Background-NOLOGO-1500x1500.jpg' alt='DJ V++ — Cosmic Microwave Background' title='DJ V++ — Cosmic Microwave Background')
+                    .col-12.col-md-6.release-player
+                        iframe(style='border: 0; width: 100%; height: 100%;' src='https://bandcamp.com/EmbeddedPlayer/album=17236672/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/campaign=mc_site/' seamless='')
+                            a(href='http://shop.microcosmosrecords.com/album/cosmic-microwave-background') Cosmic Microwave Background by DJ V++
+        section.container-fluid.release-info
+            .container
+                .row
+                    .col-12.col-md-6.release-text
+                        p Microcosmos Records presents a new mix by DJ V++.
+                        p
+                            | Cosmic Microwave Background is an exquisite retrospective chill-out collection from the heart of Microcosmos roster.
+                        p
+                            | Featuring selected tracks by the label artists from the past few years it invites you to join the space trip down the memory lane.
+                        p Listen, enjoy, travel in time!
+                        p Tracklist &amp; Original Releases:
+                        p
+                            | 01. Vena Portae &ndash; Wolves&rsquo; Dreams
+                            br
+                            a(href='http://microcosmosrecords.com/releases/vena-portae-memoria') Vena Portae &mdash; Memoria
+                        p
+                            | 02. Germind &ndash; Bending Of Light
+                            br
+                            a(href='http://microcosmosrecords.com/releases/va-microcosmos-chill-out-vol-3') VA &mdash; Microcosmos Chill-out vol.3
+                        p
+                            | 03. A-Kara &ndash; What If&mldr;
+                            br
+                            a(href='http://microcosmosrecords.com/releases/a-kara-back-to-samsara') A-Kara &mdash; Back To Samsara
+                        p
+                            | 04. Noraus &ndash; The Incredible Adventures Of A Microbe B
+                            br
+                            a(href='http://microcosmosrecords.com/releases/va-hidden-light') VA &mdash; Hidden Light
+                        p
+                            | 05. Astronaut Ape &ndash; Pulsar
+                            br
+                            a(href='http://microcosmosrecords.com/releases/astronaut-ape-unknown-sector') Astronaut Ape &mdash; Unknown Sector
+                        p
+                            | 06. EDD-989 &ndash; In The Rescue Capsule
+                            br
+                            a(href='http://microcosmosrecords.com/releases/edd-989-journey-to-the-core-of-the-galaxy') EDD-989 &mdash; Journey To The Core Of The Galaxy
+                        p
+                            | 07. Astronaut Ape &ndash; Your Personal Sun (Cubering Remix)
+                            br
+                            a(href='http://microcosmosrecords.com/releases/va-space-love') VA &mdash; Space Love
+                        p
+                            | 08. Sasha Malkovich &ndash; Practical Levitation
+                            br
+                            a(href='http://microcosmosrecords.com/releases/sasha-malkovich-practical-levitation') Sasha Malkovich &mdash; Practical Levitation
+                    .col-12.col-md-6.release-credits
+                        h4 Production:
+                        p Written &amp; Produced by:
+                        p
+                            | 01: Artem Demidov (music), Ekaterina Zlobina (text &amp; vocals)
+                            br
+                            | 02: Mikhail Glukhov
+                            br
+                            | 03: Vitaly Bochkov
+                            br
+                            | 04: Maxim Tsibizov
+                            br
+                            | 05: Oleg Belousov
+                            br
+                            | 06: Eduard Korkin
+                            br
+                            | 07: Oleg Belousov (remix by Sergey Akimov)
+                            br
+                            | 08: Sasha Malkovich
+                        p Compiled &amp; Mixed by DJ V++
+                        p Mastered by:
+                        p
+                            | 01:
+                            a(href='http://www.mindex-music.com') Mindex
+                            br
+                            | 02-08:
+                            a(href='http://www.manifold-studio.com') Manifold Studio
+                        h4 Cover artwork:
+                        p.cover-artwork
+                            | NASA
+                        h4 Cover design:
+                        p.cover-design
+                            a(href='http://www.behance.net/mo8ius' target='_blank') 080
+        section.container-fluid.release-header
+            .container
+                .row
+                    .col-12.release-name.text-center
+                        h1 Sunduo &mdash; Illuminations
+                .row
+                    .col-12.col-md-6.release-cover
+                        img.img-fluid(src='http://microcosmosrecords.com/wp-content/uploads/cover-sunduo-illuminations-3000-no-paque.jpg' alt='Sunduo — Illuminations' title='Sunduo — Illuminations')
+                    .col-12.col-md-6.release-player
+                        iframe(style='border: 0; width: 100%; height: 100%;' src='https://bandcamp.com/EmbeddedPlayer/album=662985346/size=large/bgcol=333333/linkcol=e99708/artwork=none/transparent=true/campaign=mc_site/' seamless='')
+                            a(href='http://shop.microcosmosrecords.com/album/illuminations') Illuminations by Sunduo
+        section.container-fluid.release-info
+            .container
+                .row
+                    .col-12.col-md-6.release-text
+                        p Microcosmos Records presents a mix-compilation &ldquo;Illuminations&rdquo; by Sunduo.
+                        p
+                            | &ldquo;Illuminations&rdquo; is a fascinating, melodic chill-out journey to tracks previously released by Microcosmos Records and carefully compiled together into a musical story. &Scy;lose your eyes and let&rsquo;s your journey begin.
+                        p Enjoy!
+                        p Tracklist &amp; Original Releases:
+                        p
+                            | 01. Avilente &ndash; Cellular Transmutation
+                            br
+                            a(href='http://microcosmosrecords.com/releases/avilente-from-clear-spaces-within') Avilente &mdash; From Clear Spaces Within
+                        p
+                            | 02. Noraus &ndash; Winter Tales
+                            br
+                            a(href='http://microcosmosrecords.com/releases/va-microcosmos-chill-out-vol-2') VA &mdash; Microcosmos Chill&ZeroWidthSpace;-&ZeroWidthSpace;out vol&ZeroWidthSpace;.&ZeroWidthSpace;2
+                        p
+                            | 03. Cubering &ndash; Cocoon
+                            br
+                            a(href='http://microcosmosrecords.com/releases/va-hidden-light') VA &mdash; Hidden Light
+                        p
+                            | 04. AuroraX &ndash; Sidereal Rotation
+                            br
+                            a(href='http://microcosmosrecords.com/releases/microcosmos-chill-out-vol-4') VA &mdash; Microcosmos Chill&ZeroWidthSpace;-&ZeroWidthSpace;out vol&ZeroWidthSpace;.&ZeroWidthSpace;4
+                        p
+                            | 05. Astronaut Ape &ndash; Nebula
+                            br
+                            a(href='http://microcosmosrecords.com/releases/astronaut-ape-unknown-sector') Astronaut Ape &mdash; Unknown Sector
+                        p
+                            | 06. Aedem &ndash; Numb
+                            br
+                            a(href='http://microcosmosrecords.com/releases/va-space-love') VA &mdash; Space Love
+                        p
+                            | 07. Sasha Malkovich &ndash; Sensitive Dub
+                            br
+                            a(href='http://microcosmosrecords.com/releases/sasha-malkovich-practical-levitation') Sasha Malkovich &mdash; Practical Levitation
+                        p
+                            | 08. Eguana &ndash; Spacewalk
+                            br
+                            a(href='http://microcosmosrecords.com/releases/tea-leaves') VA &mdash; Tea Leaves
+                        p
+                            | 09. A-Kara &ndash; Oasis
+                            br
+                            a(href='http://microcosmosrecords.com/releases/a-kara-back-to-samsara') A-Kara &mdash; Back To Samsara
+                        p
+                            | 10. Alkor &ndash; Half Moon
+                            br
+                            a(href='http://microcosmosrecords.com/releases/alkor-where-tomorrow-ends') Alkor &mdash; Where Tomorrow Ends
+                        p
+                            | 11. Astronaut Ape &ndash; Orbiter
+                            br
+                            a(href='http://microcosmosrecords.com/releases/astronaut-ape-unknown-sector') Astronaut Ape &mdash; Unknown Sector
+                        p
+                            | 12. Sasha Malkovich &ndash; Ambassador Of Love
+                            br
+                            a(href='http://microcosmosrecords.com/releases/sasha-malkovich-quantum-certainty') Sasha Malkovich &mdash; Quantum Certainty
+                    .col-12.col-md-6.release-credits
+                        h4 Production:
+                        p Written &amp; Produced by:
+                        p
+                            | 01: Faheemul Hasan
+                            br
+                            | 02: Maxim Tsibizov
+                            br
+                            | 03: Sergey Akimov
+                            br
+                            | 04: Desislav Georgiev
+                            br
+                            | 05: Oleg Belousov
+                            br
+                            | 06: Konstantin Terentev
+                            br
+                            | 07: Sasha Malkovich
+                            br
+                            | 08: Sergey Sever
+                            br
+                            | 09: Vitaly Bochkov
+                            br
+                            | 10: Adam Dziuba
+                            br
+                            | 11: Oleg Belousov
+                            br
+                            | 12: Sasha Malkovich
+                        p Compiled &amp; Mixed by Sunduo
+                        p Mastered by:
+                        p
+                            | 01:
+                            a(href='http://') Syncmasters Studio
+                            br
+                            | 02:
+                            a(href='http://overdreamstudio.com') Overdream Studio
+                            br
+                            | 03-12:
+                            a(href='http://manifold-studio.com') Manifold Studio
+                        h4 Cover artwork:
+                        p.cover-artwork
+                            | Vadim Chirkov
+                        h4 Cover design:
+                        p.cover-design
+                            | Oleg Belousoff
+
+    section.container-fluid
+        .container
+            .row.justify-content-center
+                .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
+                    iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/279684687&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')
+                .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
+                    iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/591793458&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')
+                .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
+                    iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/441472002&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')
+                .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
+                    iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/682636068&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')
+                .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
+                    iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/348715668&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')
+                .col-12.col-md-6.video.embed-responsive.embed-responsive-16by9
+                    iframe(width='100%' height='300' scrolling='no' frameborder='no' allow='autoplay' src='https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/491171043&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true')

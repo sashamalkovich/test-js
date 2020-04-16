@@ -9,5 +9,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="@types/handlebars-helpers" level="application" />
+    <orderEntry type="library" name="current-device" level="application" />
   </component>
 </module>

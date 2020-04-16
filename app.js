@@ -4,6 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var favicon = require('serve-favicon');
+var navigator = require('navigator');
 
 var indexRouter = require('./routes/index');
 var musicRouter = require('./routes/music');
@@ -28,6 +29,8 @@ app.use(cookieParser());
 app.use(express.static(path.join(__dirname, 'public')));
 
 app.use(favicon(faviconPath));
+
+
 
 app.use('/', indexRouter);
 app.use('/music', musicRouter);
