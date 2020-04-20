@@ -17,12 +17,16 @@ const isMobile = function () {
 };
 
 b = isMobile();
-console.log(b);
-/*
-if (b) {
-    getData()
-} else {
-    getData1()
+
+
+function mobile() {
+    if (b) {
+        getData();
+        console.log(b);
+    } else {
+        getData1();
+        console.log(b);
+    }
 }
 
 function getData1() {
@@ -47,4 +51,6 @@ function getData() {
     };
     xhttp.open("GET", "mob", true);
     xhttp.send();
-*/
+}
+
+//mobile();

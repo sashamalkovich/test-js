@@ -22,8 +22,9 @@ head
     link(rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css')
     script(src='/js/mainscript.js')
 
-script.
-    console.log(b);
+
+
+
 
 
 html0
@@ -38,18 +39,21 @@ html0
             // "Hamburger menu" / "Bar icon" to toggle the navigation links
             a.icon(href='javascript:void(0)' onclick='myFunction()')
                 i.fa.fa-bars
+    body(onload='mobile()')
 
         nav.navbar.navbar-expand-md
             a.navbar-brand(href='javascript:void(0)' onclick='myFunction()') SM
                 #myLinks
+                    a(href='/') Home
                     a(href='/music') Music
                     a(href='/controllers') Controllers
                     a(href='/about') About
             button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarsExampleDefault' aria-controls='navbarsExampleDefault' aria-expanded='false' aria-label='Toggle navigation')
                 span.navbar-toggler-icon
             #navbarsExampleDefault.collapse.navbar-collapse
-                ul.navbar-nav.mr-auto
-
+                ul.navbar-nav
+                    li.nav-item
+                        a.nav-link(href='/') Home
                     li.nav-item
                         a.nav-link(href='/music') Music
                     li.nav-item
@@ -73,17 +77,6 @@ html0
             br
             hr
 footer
-    mobile.topnav
-        a.active(href='/') SM
-        // Navigation links (hidden by default)
-        #myLinks1
-            a(href='/music') Music
-            a(href='/controllers') Controllers
-            a(href='/about') About
-        // "Hamburger menu" / "Bar icon" to toggle the navigation links
-        a.icon(href='javascript:void(0)' onclick='myFunction()')
-            i.fa.fa-bars
-
     nav.navbar.navbar-expand-md
         //a.navbar-brand(href='/') SM
         button.navbar-toggler(type='button' data-toggle='collapse' data-target='#navbarsExampleDefault1' aria-controls='navbarsExampleDefault' aria-expanded='false' aria-label='Toggle navigation')

@@ -12,6 +12,8 @@ var usersRouter = require('./routes/users');
 var actionRouter = require('./routes/action');
 var controllersRouter = require('./routes/controllers');
 var aboutRouter = require('./routes/about');
+var mobRouter  = require('./routes/mob');
+var mainRouter = require('./routes/main');
 
 var faviconPath = path.join(__dirname, '/public/images/favicon.png');
 
@@ -33,6 +35,8 @@ app.use(favicon(faviconPath));
 
 
 app.use('/', indexRouter);
+app.use('/mob', mobRouter);
+app.use('/main', mainRouter)
 app.use('/music', musicRouter);
 app.use('/about', aboutRouter);
 app.use('/controllers', controllersRouter);

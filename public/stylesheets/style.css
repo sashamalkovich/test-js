@@ -29,7 +29,7 @@ body .intro-text {
 body .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Light", Helvetica, Arial, sans-serif;
-    font-size:75px;
+    font-size: 42px;
     font-weight: 700;
     line-height: 60px;
 }
@@ -171,7 +171,7 @@ header .intro-text {
 header .intro-text .intro-heading {
     text-transform: uppercase;
     font-family: Montserrat, "Helvetica Light", Helvetica, Arial, sans-serif;
-    font-size:75px;
+    font-size:42px;
     font-weight: 700;
     line-height: 60px;
 }
